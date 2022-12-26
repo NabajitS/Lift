@@ -23,18 +23,18 @@ input {
     color: #FA7070;
     text-align: center;
     margin-top: auto;
-    margin-top: 5rem;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 15px;
 }
 
 button {
-    margin-top: 1rem;
+    margin-top: 15px;
     background: #3ABFF8;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 10px 16px;
     color: white;
     border-radius: 5px;
     font-size: 17px;
@@ -55,7 +55,7 @@ h3 {
 
 .floor-container {
     display: flex;
-    gap: 3rem;
+    gap: 50px;
     align-items: flex-end;
     position: relative;
 }
@@ -68,8 +68,8 @@ h3 {
 .lift {
     background-color: #0a243d;
     border: 1px solid #C6EBC5;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     position: relative;
 }
 
@@ -89,7 +89,7 @@ h3 {
 .total-lifts {
     display: flex;
     flex-wrap: no-wrap;
-    gap: 2rem;
+    gap: 30px;
 }
 
 .lift::before {
