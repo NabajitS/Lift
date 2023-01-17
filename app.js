@@ -51,11 +51,13 @@ submitBtn.addEventListener("click", () => {
     }
 })
 
-
+let tempFloorCall;
 addEventListener('click', (e) => {
     if (e.target.classList.contains("call-lift-btn")) {
         const selectedFloor = Number(e.target.dataset.floor)
-        if (selectedFloor) {
+        //So that two lifts cannot be called to the same floor on the same time
+        if (selectedFloor != tempFloorCall) {
+            tempFloorCall = selectedFloor;
             startLift(selectedFloor)
         }
     }
